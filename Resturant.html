@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding-left: 200px;
+    }
+    h1{
+        font-size: 50px;
+        background-color: bisque;
+        padding: 30px;
+        text-align: center;
+        margin: 0px;
+        border: 2px solid black;
+        border-style: dashed;
+      
+
+        
+    }
+    .sidebar h2{
+        color: white;
+        font-size: 30px;
+    }
+    .sidebar{
+        background-color: #133;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 15vw;
+        color: white;
+        padding-left: 10px;
+
+    }
+    .sidebar a{
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+   .sidebar a:hover{
+    background-color: rgb(158, 190, 190);
+    border-radius: 4px;
+    padding: 5px;
+   }
+   .sidebar a:active{
+    border: 1px solid white;
+    color: red;
+   }
+   h2{
+    font-size: 35px;
+    text-align: center;
+   }
+   h3{
+    text-decoration: underline;
+    
+   }
+   img{
+    border-radius: 10px;
+   }
+   .container{
+    display:flex;
+    gap: 10px;
+    padding: 0px 80px ;
+   }
+   .item{
+    text-align: center;
+   background-image: linear-gradient(to right bottom, #cbd9ed, #a0bac5, #809b99, #697a70, #565a4d);
+    width:40vw;
+    border: 1px solid black;
+    border-radius: 10px;
+   }
+   .item:hover{
+    transition:transform 0.3s;
+    transform: scale(1.05);
+   }
+</style>
+<body>`
+    <h1>Asli-Dhabha</h1>
+    
+   
+    <nav class="sidebar">
+         <h2>Menu</h2>
+        <a href="">Home</a>
+        <a href="">Starters</a>
+        <a href="">Main course</a>
+        <a href="">contact</a>
+    </nav>
+    <h2>Our specials<h2></h2>
+    <div class="container">
+       
+           <div class="item">
+
+               <h3>
+                   Chole-Kulche
+                </h3>
+                <img src="chole kulche.jpg" alt="" height="200px" width="200px">
+                <p>Amritsari Chole Kulche </p>
+         </div>
+        <div class="item">
+
+            <h3>
+                Dosa
+            </h3>
+            <img src="https://media-cdn2.greatbritishchefs.com/media/cqfbszpf/pali-hill0064-selects.whqc_1800x1200q90.webp" height="200px" width="200px" >
+            <p>Crispy on the outside, soft inside, filled with masala love</p>
+            </div>
+        <div class="item">
+
+            <h3>
+                GolGapppe
+            </h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSCOQsajMqMtGVxmHMplbo1vFcHmMBN6kqAw&s" height="200px" width="200px">
+            <p>A bite-sized burst of happiness! </p>
+       </div>
+    </div>
+
+
+</body>
+</html>
